@@ -1,0 +1,34 @@
+{
+  "name": "@simfyz/pipe-function",
+  "version": "1.0.0",
+  "author": "Fayas Ismail (https://github.com/simfyz)",
+  "description": "Pipe operator to execute functions from the template.",
+  "homepage": "https://github.com/simfyz/ng-pipe-function#readme",
+  "keywords": [
+    "angular",
+    "pipe",
+    "function",
+    "execute",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simfyz/ng-pipe-function.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "main": "src/public-api.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simfyz/ng-pipe-function/issues"
+  }
+}
