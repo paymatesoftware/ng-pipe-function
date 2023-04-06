@@ -4,7 +4,7 @@ import {Pipe, PipeTransform} from '@angular/core';
   name: 'pipeFunction',
   standalone: true
 })
-export class NgxPipeFunctionPipe implements PipeTransform {
+export class NgxFunctionPipe implements PipeTransform {
   public transform(value: any, handler: (value: any) => any, context?: any): any {
     if (context) {
       return handler.call(context, value);
