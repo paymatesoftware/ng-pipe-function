@@ -1,6 +1,6 @@
 {
   "name": "@simfyz/pipe-function",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "Fayas Ismail (https://github.com/simfyz)",
   "description": "Pipe operator to execute functions from the template.",
   "homepage": "https://github.com/simfyz/ng-pipe-function#readme",
@@ -16,8 +16,8 @@
     "url": "git+https://github.com/simfyz/ng-pipe-function.git"
   },
   "peerDependencies": {
-    "@angular/common": "^15.2.0",
-    "@angular/core": "^15.2.0"
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"

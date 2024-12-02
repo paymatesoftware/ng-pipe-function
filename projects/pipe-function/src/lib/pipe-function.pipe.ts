@@ -1,8 +1,7 @@
 import {Pipe, PipeTransform} from '@angular/core';
 
 @Pipe({
-  name: 'pipeFunction',
-  standalone: true
+  name: 'pipeFunction'
 })
 export class NgxFunctionPipe implements PipeTransform {
   public transform(value: any, handler: (value: any) => any, context?: any): any {
