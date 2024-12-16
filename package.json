@@ -1,5 +1,5 @@
 {
-  "name": "pipe-function",
+  "name": "ngx-pipe-function",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
