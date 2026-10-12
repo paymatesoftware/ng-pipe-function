@@ -4,7 +4,7 @@ import {Pipe, PipeTransform} from '@angular/core';
   name: 'pipeFunction'
 })
 export class NgxFunctionPipe implements PipeTransform {
-  public transform(value: any, handler: (value: any) => any, context?: any): any {
+  public transform<T = any>(value: any, handler: (value: any) => T, context?: any): T {
     if (context) {
       return handler.call(context, value);
     }

@@ -1,5 +1,13 @@
 # PipeFunction
 
+## Compatibility
+
+| Version | Angular |
+| --- | --- |
+| 2.x | 22+ (zoneless-ready, standalone pipe) |
+| 1.x | 17 - 21 |
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
